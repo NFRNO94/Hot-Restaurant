@@ -1,0 +1,25 @@
+{
+  "name": "Hot-Restaurant",
+  "version": "1.0.0",
+  "description": "Fill 5 Table reservations. Place other reservations on the waiting list.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NFRNO94/Hot-Restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NFRNO94/Hot-Restaurant/issues"
+  },
+  "homepage": "https://github.com/NFRNO94/Hot-Restaurant#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
