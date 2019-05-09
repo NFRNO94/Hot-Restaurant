@@ -11,8 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 //app.use(express.static("public"));
 
-require("../Hot-Restaurant/routes/apiRoutes")(app);
-require("../Hot-Restaurant/routes/htmlRoutes")(app);
+require("./Hot-Restaurant/routes/apiRoutes")(app);
+require("./Hot-Restaurant/routes/htmlRoutes")(app);
 
   // Starts the server to begin listening
   // =============================================================
